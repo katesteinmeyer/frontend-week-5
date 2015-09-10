@@ -1,16 +1,20 @@
 <!DOCTYPE>
 <html>
 <head>
-  <title>My TODO List!</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>TODO</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-  <h1>TODO</h1>
+    <body>
 
-  <!--
-    Your HTML goes here
-   -->
+    <div class = "perfectbox"> 
+        <h1>TODO</h1>
+            <input type="textbox" id="txt1"/>
+            <input type="onkeydown" value="Add List" onclick="addFancyList('ToDoListTable')" />
+         
+    <table id="ToDoListTable"></table>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+
+    </body>
 </html>

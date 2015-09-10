@@ -1,4 +1,24 @@
-* {
+html {
   font-family: Arial;
+}
+body {
+    color: blue;
+    background-color: blue;
+}
+h1 {
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.perfectbox {
+   width: 360px;
+   background-color: pink;
+   margin-left: 500px;
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-bottom:50px;
+
 }
 
